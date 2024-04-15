@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drum Kit</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+       <audio id="audioContainer">
+        <source src="sounds/awesome-kick-drum-41824.mp3" type="audio/mp3" />
+       </audio>
+
+       <audio id="audioContainer2">
+        <source src="sounds/snare-made-from-clap-101249.mp3" type="audio/mp3" />
+       </audio>
+
+       <audio id="audioContainer3">
+        <source src="sounds/floor-tom-107404.mp3" type="audio/mp3" />
+       </audio>
+
+       <audio id="audioContainer4">
+        <source src="sounds/tom-2-85124.mp3" type="audio/mp3" />
+       </audio>
+
+       <audio id="audioContainer5">
+        <source src="sounds/tom-3-107600.mp3" type="audio/mp3" />
+       </audio>
+
+       <audio id="audioContainer6">
+        <source src="sounds/open-hi-hat-37514.mp3" type="audio/mp3" />
+       </audio>
+
+       <audio id="audioContainer7">
+        <source src="sounds//cymbal-crash-1-167695.mp3" type="audio/mp3" />
+       </audio>
+
+       <audio id="audioContainer8">
+        <source src="sounds/long-ride-cymbal-2-36337.mp3" type="audio/mp3" />
+       </audio>
+
+       <button onclick="playBass()">Bass Drums</button>
+       <button onclick="playSnare()">Snare Drums</button>
+       <button onclick="playFloor()">Floor Drums</button>
+       <button onclick="playTom1()">Tom1 Drums</button>
+       <button onclick="playTom2()">Tom2 Drums</button>
+       <button onclick="playHi()">Hi-Hat</button>
+       <button onclick="playCrash()">Crash Cymbal</button>
+       <button onclick="playRide()">Ride Cymbal</button>
+
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
